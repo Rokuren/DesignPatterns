@@ -3,6 +3,9 @@
  *    Separate the construction of a complex object from its representation
  *      so that the same construction process can create different representations.
  *    Important to note the waiter doesn't need to know about the pizza recipes.
+ *    Composition of objects can differ within the same subclass. Not shown here.
+ *      This example seems more of an abstract factory example.
+ *    A better builder example might be a car. Brand->Model->Trim->Options
  *    Director: the waiter;
  *    Client: the customer who chooses the type of pizza.
  **/
