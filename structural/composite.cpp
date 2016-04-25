@@ -7,6 +7,12 @@
  *  4. All "container" classes couple themselves to the interface (recursive
  *     composition, Composite "has a" set of children up the "is a " hierarchy)
  *  5. "Container" classes user polymorphism as they delegate to their children
+ * PART-WHOLE
+ *  Any object in a collection is a part of the whole composition. 
+ *  IE, a directory. A directory is a composite of directories and files within
+ *    and each object (dir/file) is a part of the whole (dir). 
+ *  Directory is an example of a tree structure that represents part-whole hierarchies.
+ *  (Leaf/Node); doesn't have to be uniform like dir->file
  */
 
 #include <iostream>
